@@ -1,0 +1,15 @@
+<template>
+  <v-container>
+    <v-row no-gutters>
+      <v-col cols="12" md="12" class="d-flex alighn-center">
+        <h1>سوابق فیش</h1>
+        <v-icon>
+          <PauseIcon />
+        </v-icon>
+      </v-col>
+    </v-row>
+  </v-container>
+</template>
+<script setup>
+import PauseIcon from './Icons/PauseIcon.vue';
+</script>
