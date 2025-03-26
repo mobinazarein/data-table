@@ -1,0 +1,38 @@
+// @import "./styles/fonts";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  font-family: "IRANSans", sans-serif;
+  letter-spacing: 0;
+}
+
+body {
+  font-family: "IRANSans", sans-serif !important;
+}
+h1,
+h2 {
+  font-family: "IRANSans", sans-serif;
+  font-weight: 700;
+}
+p {
+  font-family: "IRANSans", sans-serif;
+  font-weight: 400;
+}
+.v-field.v-field--center-affix.v-field--prepended.v-field--variant-outlined.v-theme--light.v-locale--is-rtl {
+  border-radius: 12px !important;
+}
+.v-field__prepend-inner {
+  color: #737993;
+}
+
+label.v-label.v-field-label {
+  color: #c7cacf;
+}
+
+.v-field.v-field--center-affix.v-field--prepended.v-field--variant-outlined.v-theme--light.v-locale--is-rtl {
+  color: #77787f4d;
+}
